@@ -9,7 +9,7 @@ body {
   background-image: url('smile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 
 /* Centered Heading Styles */
