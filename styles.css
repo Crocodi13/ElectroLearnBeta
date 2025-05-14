@@ -5,11 +5,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-
-  background-image: url('smile.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  
+  background-color: lightcyan;
 }
 
 /* Centered Heading Styles */
@@ -21,7 +18,7 @@ h1 {
 
 /* Subheading Styles */
 h3 {
-  color: brown;
+  color: black;
   font-size: 1.5em;
   margin-top: 10px;
   font-style: italic;
