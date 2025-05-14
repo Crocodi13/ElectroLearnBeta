@@ -41,3 +41,18 @@ div p {
 body > div, body > h1, body > h3 {
   margin-bottom: 20px;
 }
+
+.materials-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.material {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
