@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Electro Learn Homepage</title>
    <link rel="stylesheet" href="styles.css">
+   <style>
+      body {
+         margin: 0;
+         font-family: Arial, sans-serif;
+         text-align: center;
+         padding: 1rem;
+      }
+
+      img {
+         width: 20%;
+         max-width: 100px;
+         height: auto;
+      }
+
+      .nav-link {
+         border: 0.5px solid black;
+         padding: 10px 15px;
+         display: inline-block;
+         margin: 10px 0;
+         text-decoration: none;
+         color: black;
+         border-radius: 5px;
+      }
+
+      @media (max-width: 600px) {
+         img {
+            width: 40%;
+         }
+
+         .nav-link {
+            padding: 8px 12px;
+         }
+      }
+   </style>
 </head>
 <body>
-   <h1 style="text-align: center;">Electro Learn</h1>
-   <div style="text-align: center;"><img src="ElectroLearnLogo.jpeg" width="100" height="100" alt="Image"></div>
-   <h3 style="text-align: center;">"Designed by Engineering Students <br> for Engineering Students"</h3>
-   <h6 style="text-align: center;">By: BSELE Group 2</h6>
-   <div style="text-align: center;">
-  <p>Explore! </p>
-  <a href="materialspage.html"style="border: 0.5px solid black; padding: 5px; display: inline-block;">Materials</a>
-   </div>
+   <h1>Electro Learn</h1>
+   <div><img src="ElectroLearnLogo.jpeg" alt="Image"></div>
+   <h3>"Designed by Engineering Students <br> for Engineering Students"</h3>
+   <h6>By: BSELE Group 2</h6>
+   <p>Explore!</p>
+   <a href="page2.html" class="nav-link">Modules</a><br>
+   <a href="page3.html" class="nav-link">Guides</a><br>
+   <a href="page4.html" class="nav-link">How to use</a>
 </body>
 </html>
