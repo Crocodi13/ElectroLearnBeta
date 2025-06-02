@@ -1,2 +1,1 @@
-This is my group's third-year college project.
-:)
+This is my group's third-year college project :)
